@@ -1,0 +1,197 @@
+
+.viewcontainerR {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 0;
+  
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rowR {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  flex-wrap: wrap;
+}
+
+.Rcard {
+  -webkit-transition: ease all .3s;
+  transition: ease all .3s;
+  width: 300px;
+ 
+}
+
+.Rwarpper {
+  margin: 60px 20px 20px;
+  padding-top: 270px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  border-Width: 1px;
+  border-color: #c0bdbd;
+  -webkit-box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.2);
+          box-shadow: 0 0 20px 10px rgba(25, 25, 25, 0.2);
+  -webkit-transition: ease all .3s;
+  transition: ease all .3s;
+}
+
+.Rwarpper:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.Rwarpper:hover .Rcard_img {
+  height: 350px;
+}
+
+
+
+
+
+.color_bg {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.Rcard_img {
+  background-size: contain;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: calc(100% - 300px);
+  width: 100%;
+  height: 300px;
+  -webkit-transition: ease all .3s;
+  transition: ease all .3s;
+}
+
+.RcardInfo {
+  display: block;
+  padding: 20px 10px 5px 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto';
+  color: #666;
+}
+
+.RcardInfo h1 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.RcardInfo p {
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.Raction {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.RpriceGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.RpriceGroup .Rprice {
+  font-size: 25px;
+  color: #000;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+
+.RpriceGroup .Rprice.Price {
+  color: #000;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.Rcart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+
+.Rcart:hover {
+  cursor: pointer;
+}
+
+.Rcart svg, .Rcart path, .Rcart circle {
+  stroke: currentColor;
+  fill: transparent;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+.rentButton {
+	margin: 10px auto;
+	width: 100px;
+	height: 35px;
+	background: hsl(245, 44%, 65%);
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 10px 10px hsl(225, 100%, 94%);
+}

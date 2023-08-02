@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.about{
+    background: url(b.png) no-repeat left;
+    background-size: 55%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 20px ;
+    border-radius :20%;
+    
+    
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    background-color: #797D7F;
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+   
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 900;
+}
+.text{
+    font-size: 15px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.buttonclass button{
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #f5c3c3;
+    color: white;
+    cursor: pointer;
+}
+.buttonclass button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}

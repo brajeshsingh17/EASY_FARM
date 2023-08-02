@@ -1,0 +1,47 @@
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"); */
+/* @import url("https://fonts.googleapis.com/css?family=Arvo"); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+
+.page_404 {
+    padding: 40px;
+    background: #fff;
+    font-family: 'Arvo', serif;
+    
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+    font-family: 'Rubik Bubbles', cursive;
+    color: #39ad31;
+
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ad31;
+    border-radius: 14px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}

@@ -1,0 +1,108 @@
+.container1{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',serif;
+
+    
+}
+.container1{
+    min-height: 100vh;
+    background: #817ae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: url("./bg7.png");*/
+    background-color:#797D7F;
+
+}
+
+.container1 form{
+    width: 670px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0,0, 0.5);
+    border-radius: 15px;
+    background: rgba(225, 225, 225, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+}
+
+.container1 form input{
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+   
+}
+
+.container1 form input::placeholder{
+    color: #ddd;
+}
+
+.container1 form #lastName,
+.container1 form #mobile{
+    margin-left: 20px;
+}
+
+.container1 form h1{
+    
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+
+}
+.container1 form h4{
+    color: #fff;
+    font-weight: 100;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.container1 form textarea{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    min-width: 600px;
+    max-width: 600px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194, 194, 194, 713);
+}
+
+.container1 form #button{
+    border: none;
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 100px;
+    padding: 0;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+.container1 form #button:hover{
+    opacity: 0.7;
+}
